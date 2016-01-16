@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<server port="8080">
+  <module context="MyFirstWebPage" name="MyFirstWebPage" path="/Volumes/Anis/Copy/Teaching/Courses/CS371/CS371-152-Spring2016/section 314/4- Lecture Notes/cs371_eclipse_web_projects/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/MyFirstWebPage" type="static"/>
+</server>
