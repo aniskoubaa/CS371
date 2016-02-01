@@ -127,15 +127,77 @@
 	<p>Please fill in the following form to send me your feedback about my website</p>
 	<form method="post" action="http://cs102.coins-lab.org">
 		<!-- hidden inputs -->
-		<input type = "hidden" name ="email" 
+		<input type = "hidden" name ="hiddenemail" 
 			   value = "anis.koubaa@gmail.com"/>
 		<input type = "hidden" name ="subject" 
 			   value = "submission of feedback"/>
 		<!-- text inputs -->
 		<p>
-			<label> Write you message: <input name="inputMessage" type="text" size="40" maxlength="30"> 
+			<label> Name: 
+			<input type="text" name="name"  size="20" maxlength="30"> 
 			</label>
 		</p>
+		<!-- textarea inputs -->
+		<p>
+			<label> Comments:<br>
+			<textarea name="comments"  cols="30" rows="5"> 
+			write your feedback
+			</textarea>
+			</label>
+		</p>
+		<!-- email inputs -->
+		<p>
+			<label> Email Address:<br>
+			<input type ="password" name="email"  size="25"> 
+			</label>
+		</p>
+		<!-- radio -->
+		<p> What is your opinion about the web site?</p>
+		<p>
+			<label> Very Good
+			<input type ="radio" name="opinion"  value ="verygood"> 
+			</label>
+			<label> Good
+			<input type ="radio" name="opinion" value ="good"> 
+			</label>
+			<label> Average
+			<input type ="radio" name="opinion" value ="average"> 
+			</label>
+			<label> Poor 
+			<input type ="radio" name="opinion" value ="poor"> 
+			</label>
+		</p>
+		<!-- check boxes -->
+		<p> How did you get my web site?</p>
+		<p>
+			<label> Search engine
+			<input type ="checkbox" name="howtosite"  value = "searchengine"> 
+			</label>
+			<label> Links from another web site
+			<input type ="checkbox" name="howtosite"  value = "links"> 
+			</label>
+			<label> Reference in a book
+			<input type ="checkbox" name="howtosite"  value = "bookref"> 
+			</label>
+			<label> Other 
+			<input type ="checkbox" name="howtosite"  value = "other"> 
+			</label>
+		</p>
+		
+		<p>
+			<label>Rate our site</label>
+			<select name="rating">
+				<option selected>Not selected</option>
+				<option>Amazing</option>
+				<option>5</option>
+				<option>4</option>
+				<option>3</option>
+				<option>2</option>
+				<option>1</option>
+				<option>Poor</option>
+			</select>
+		</p>
+		
 		<!-- submit and reset inputs -->
 		<p>
 			<input type="submit" value = "Send Feeback">
