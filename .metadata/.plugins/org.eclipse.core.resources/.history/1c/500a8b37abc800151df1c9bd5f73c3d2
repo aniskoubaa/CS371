@@ -138,8 +138,6 @@
 		</p>
 		<!-- submit and reset inputs -->
 		<p>
-			<input type="submit" value = "Send Feeback">
-			<input type="reset" value = "Clear">
 		</p>
 		
 	</form>

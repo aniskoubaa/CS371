@@ -126,6 +126,7 @@
 	<h2>Contact Me</h2>
 	<p>Please fill in the following form to send me your feedback about my website</p>
 	<form method="post" action="http://cs102.coins-lab.org">
+		<p>
 		<!-- hidden inputs -->
 		<input type = "hidden" name ="email" 
 			   value = "anis.koubaa@gmail.com"/>
@@ -138,9 +139,6 @@
 		</p>
 		<!-- submit and reset inputs -->
 		<p>
-			<input type="submit" value = "Send Feeback">
-			<input type="reset" value = "Clear">
-		</p>
 		
 	</form>
 

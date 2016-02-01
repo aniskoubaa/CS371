@@ -127,21 +127,12 @@
 	<p>Please fill in the following form to send me your feedback about my website</p>
 	<form method="post" action="http://cs102.coins-lab.org">
 		<!-- hidden inputs -->
-		<input type = "hidden" name ="email" 
-			   value = "anis.koubaa@gmail.com"/>
-		<input type = "hidden" name ="subject" 
-			   value = "submission of feedback"/>
-		<!-- text inputs -->
+		
+		
 		<p>
 			<label> Write you message: <input name="inputMessage" type="text" size="40" maxlength="30"> 
 			</label>
 		</p>
-		<!-- submit and reset inputs -->
-		<p>
-			<input type="submit" value = "Send Feeback">
-			<input type="reset" value = "Clear">
-		</p>
-		
 	</form>
 
 	<h2>Copyrights</h2>

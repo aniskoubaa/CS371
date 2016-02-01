@@ -136,11 +136,7 @@
 			<label> Write you message: <input name="inputMessage" type="text" size="40" maxlength="30"> 
 			</label>
 		</p>
-		<!-- submit and reset inputs -->
-		<p>
-			<input type="submit" value = "Send Feeback">
-			<input type="reset" value = "Clear">
-		</p>
+		<!-- submit and rest inputs -->
 		
 	</form>
 
