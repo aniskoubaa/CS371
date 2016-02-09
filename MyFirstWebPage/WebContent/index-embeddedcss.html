@@ -12,14 +12,24 @@
 <title>Anis Koubaa Personal HomePage</title>
 <!-- Embedded CSS3 Styles -->
 <style type="text/css">
-	p {font-size: 12pt;
+	a.nodec {text-decoration:none;
+		color:blue}
+	a:hover{text-decoration:underline;
+		color:red}
+	p {font-size: 90%;
 	   font-family: arial, sans-serif;
 	   color: gray}
-	h2 {font-family:tahoma, helvetica, sans-serif;}
+	h2 {font-family:tahoma, helvetica, sans-serif;
+		color:blue}
 	em {font-weight:bold;
 		color:red} 
-	.special{color:purple;
+	.special{color:blue;
 	         font-weight:lighter}  
+     #redtitle{color:red}
+     li em {color:green}
+     p em {color:yellow}
+     ul {margin-left: 50px}
+     ul {font-size:.8em}
 	
 </style>
 
@@ -33,7 +43,7 @@
 				src="../images/contact.jpg" width="50" alt="Contact menu" />
 			</a>
 		</p>
-		<h1>Anis Koubaa, PhD</h1>
+		<h1 id="redtitle">Anis Koubaa, PhD</h1>
 		<h3>
 			<time>2016-2-3</time>
 		</h3>
@@ -51,16 +61,16 @@
 	</header>
 	<section id="1">
 		<h2 id="bio">Short Biography</h2>
-		<p class="special">
+		<p >
 			I am currently an <strong>Associate Professor in Computer
-				Science</strong> at <a href="http://www.psu.edu.sa"> Prince Sultan
+				Science</strong> at <a  href="http://www.psu.edu.sa"> Prince Sultan
 				University</a>, and a <em>Research Associate at the CISTER Research</em>
 			Unit. <br> I received my <em>Habilitation degree</em> in Computer Science
 			on September 2011.
 
 		</p>
 		<p>
-			If you want to send me a message, <a href="#contact"> click here</a>;
+			If you want to send me a message, <a class="nodec" href="#contact"> click here</a>;
 		</p>
 	</section>
 	<section id="2">
@@ -73,9 +83,9 @@
 		<h2>Courses</h2>
 		<details>
 		<summary>Courses taught in Semester 152</summary>
-		<ol>
+		<ol class="special">
 			<li><a href="http://cs102.coins-lab.org">Programming II
-					(CS102)</a>
+					<em>(CS102)</em></a>
 				<ul>
 					<li><mark>Section 225</mark></li>
 					<li>Section 612</li>
@@ -85,7 +95,7 @@
 		</ol>
 	</details>
 	</article>
-	<h2>Schedule</h2>
+	<h2 id = "redtitle">Schedule</h2>
 	<p>These are my working hours</p>
 	<!-- create a table for the schedule -->
 	<table border="1" id="scheduletable">
@@ -232,7 +242,7 @@
 
 	</form>
 
-	<h2>Copyrights</h2>
+	<h2 style="color:red">Copyrights</h2>
 	<p>
 		All information in this site is <strong>&copy; Dr. Anis
 			Koubaa, 2016</strong>. <br>

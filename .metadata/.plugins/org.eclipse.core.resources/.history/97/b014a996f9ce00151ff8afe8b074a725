@@ -1,0 +1,19 @@
+@CHARSET "UTF-8";
+a.nodec {text-decoration:none;
+		color:blue}
+	a:hover{text-decoration:underline;
+		color:red}
+	p {font-size: 90%;
+	   font-family: arial, sans-serif;
+	   color: gray}
+	h2 {font-family:tahoma, helvetica, sans-serif;
+		color:blue}
+	em {font-weight:bold;
+		color:red} 
+	.special{color:blue;
+	         font-weight:lighter}  
+     #redtitle{color:red}
+     li em {color:green}
+     p em {color:yellow}
+     ul {margin-left: 50px}
+     ul {font-size:.8em}
