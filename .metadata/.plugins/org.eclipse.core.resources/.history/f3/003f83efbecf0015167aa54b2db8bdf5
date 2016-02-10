@@ -1,0 +1,47 @@
+<html>
+<head>
+<meta charset="utf-8">
+<meta lang="en-us">
+<meta name="keywords" content="CSS3 absolute positioning">
+<meta name="description"
+	content="This web page presents CSS3 absolute positioning">
+<meta name="author" content="Dr. Anis Koubaa">
+<!--  meta http-equiv="refresh" content ="1; url=http://wiki.coins-lab.org" -->
+<title>CSS3 absolute positioning</title>
+<style>
+.background_image {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 1;
+}
+.foreground_image {
+	position: absolute;
+	top: 25px;
+	left: 100px;
+	z-index: 2;
+}
+.text {
+	position: absolute;
+	top: 25px;
+	left: 100px;
+	z-index: 3;
+}
+</style>
+<p>
+<img src="../images/psu-logo.gif" alt="psu-logo" class="background_image"/>
+</p>
+<p>
+<img src="../images/contact.jpg" alt="contact" class="background_image"/>
+</p>
+<p>
+Hello World!
+</p>
+
+</head>
+<body>
+
+
+
+</body>
+</html>

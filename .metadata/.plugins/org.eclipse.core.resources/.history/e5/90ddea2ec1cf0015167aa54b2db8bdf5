@@ -1,0 +1,42 @@
+<html>
+<head>
+<meta charset="utf-8">
+<meta lang="en-us">
+<meta name="keywords" content="CSS3 relative positioning">
+<meta name="description"
+	content="This web page presents CSS3 relative positioning">
+<meta name="author" content="Dr. Anis Koubaa">
+<!--  meta http-equiv="refresh" content ="1; url=http://wiki.coins-lab.org" -->
+<title>CSS3 relative positioning</title>
+<style>
+p {
+	font-size: 1.3 em;
+	font-family: verdana, arial, sans-serif;
+}
+
+span {
+	color: red;
+	font-size: .6em;
+	height: 1em;
+}
+.super{
+	
+}
+
+</style>
+</head>
+<body>
+	<p>
+		<img src="../images/psu-logo.gif" alt="psu-logo"
+			class="background_image" />
+	</p>
+	<p>
+		<img src="../images/contact.jpg" alt="contact"
+			class="foreground_image" />
+	</p>
+	<p class="text">Hello World!</p>
+	<p class="text">This is <span >CS102</span> course </p>
+
+
+</body>
+</html>
