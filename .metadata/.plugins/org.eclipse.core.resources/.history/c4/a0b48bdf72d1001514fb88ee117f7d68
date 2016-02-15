@@ -1,0 +1,70 @@
+body {
+  font-family: Gothamrounded, sans-serif;
+  color: #404040;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  background-image:url(../images/psu-logo.gif);
+}
+
+h1 {
+  margin-bottom: 10px;
+  font-size: 46px;
+  line-height: 55px;
+  font-weight: 400;
+}
+
+h2 {
+  margin-bottom: 30px;
+  font-size: 34px;
+  line-height: 42px;
+  font-weight: 400;
+}
+
+
+p {
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 200;
+}
+
+a {
+  color: #808080;
+}
+a:hover{
+	color:#000088;
+	font-weight:bold;
+}
+
+.note{
+	margin-bottom: 5%;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 5%;
+	background-color:#f1f1f1;	
+}
+
+.button {
+  display: inline-block;
+  padding: 4px 15px;
+  background-image:
+  color: white
+  text-align: center;
+  text-decoration: none;
+  font-family: Tahoma, Gothamrounded, sans-serif;
+  font-size:1em;
+}
+
+@font-face {
+  font-family: 'Gothamrounded';
+  src: url('https://daks2k3a4ib2z.cloudfront.net/555ac35a34a9cb43245c001f/555ac44734a9cb43245c002e_GothamRnd-Light.otf') format('opentype');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gothamrounded';
+  src: url('https://daks2k3a4ib2z.cloudfront.net/555ac35a34a9cb43245c001f/555ac447290a9b4224db266b_GothamRnd-Book.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}

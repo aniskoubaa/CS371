@@ -1,5 +1,13 @@
 @CHARSET "UTF-8";
 
+body{
+	background-image:url(../../images/background2.jpeg);
+	background-repeat:no-repeat;
+	background-color: #fefefe;
+	background-attachement:scroll;
+	
+}
+
 a.nodec {
 	text-decoration: none;
 	color: blue
