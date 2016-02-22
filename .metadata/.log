@@ -2438,3 +2438,185 @@ org.eclipse.jgit.errors.TransportException: Nothing to push.
 
 !ENTRY org.eclipse.egit.ui 4 0 2016-02-22 07:43:44.170
 !MESSAGE Can't connect to any repository: https://github.com/aniskoubaa/CS371.git (Nothing to push.)
+
+!ENTRY org.eclipse.rse.ui 4 0 2016-02-22 07:53:31.966
+!MESSAGE Unable to set last modified
+!STACK 0
+org.eclipse.rse.services.clientserver.messages.SystemUnsupportedOperationException: Operation not supported: 'setLastModified'
+	at org.eclipse.rse.internal.services.files.ftp.FTPService.setLastModified(FTPService.java:1657)
+	at org.eclipse.rse.subsystems.files.core.servicesubsystem.FileServiceSubSystem.setLastModified(FileServiceSubSystem.java:1074)
+	at org.eclipse.rse.files.ui.resources.UniversalFileTransferUtility.uploadResourceFromWorkspace(UniversalFileTransferUtility.java:2033)
+	at org.eclipse.rse.internal.files.ui.view.SystemViewRemoteFileAdapter.doDrop(SystemViewRemoteFileAdapter.java:2679)
+	at org.eclipse.rse.internal.files.ui.view.SystemViewRemoteFileAdapter.doDrop(SystemViewRemoteFileAdapter.java:2651)
+	at org.eclipse.rse.internal.ui.view.SystemDNDTransferRunnable.transferNonRSEResources(SystemDNDTransferRunnable.java:542)
+	at org.eclipse.rse.internal.ui.view.SystemDNDTransferRunnable.runInWorkspace(SystemDNDTransferRunnable.java:746)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:38)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.rse.ui 4 0 2016-02-22 07:53:46.686
+!MESSAGE Unable to set last modified
+!STACK 0
+org.eclipse.rse.services.clientserver.messages.SystemUnsupportedOperationException: Operation not supported: 'setLastModified'
+	at org.eclipse.rse.internal.services.files.ftp.FTPService.setLastModified(FTPService.java:1657)
+	at org.eclipse.rse.subsystems.files.core.servicesubsystem.FileServiceSubSystem.setLastModified(FileServiceSubSystem.java:1074)
+	at org.eclipse.rse.files.ui.resources.UniversalFileTransferUtility.uploadResourceFromWorkspace(UniversalFileTransferUtility.java:2033)
+	at org.eclipse.rse.internal.files.ui.view.SystemViewRemoteFileAdapter.doDrop(SystemViewRemoteFileAdapter.java:2679)
+	at org.eclipse.rse.internal.files.ui.view.SystemViewRemoteFileAdapter.doDrop(SystemViewRemoteFileAdapter.java:2651)
+	at org.eclipse.rse.internal.ui.view.SystemDNDTransferRunnable.transferNonRSEResources(SystemDNDTransferRunnable.java:542)
+	at org.eclipse.rse.internal.ui.view.SystemDNDTransferRunnable.runInWorkspace(SystemDNDTransferRunnable.java:746)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:38)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.rse.ui 4 0 2016-02-22 07:53:49.132
+!MESSAGE Unable to set last modified
+!STACK 0
+org.eclipse.rse.services.clientserver.messages.SystemUnsupportedOperationException: Operation not supported: 'setLastModified'
+	at org.eclipse.rse.internal.services.files.ftp.FTPService.setLastModified(FTPService.java:1657)
+	at org.eclipse.rse.subsystems.files.core.servicesubsystem.FileServiceSubSystem.setLastModified(FileServiceSubSystem.java:1074)
+	at org.eclipse.rse.files.ui.resources.UniversalFileTransferUtility.uploadResourceFromWorkspace(UniversalFileTransferUtility.java:2033)
+	at org.eclipse.rse.internal.files.ui.view.SystemViewRemoteFileAdapter.doDrop(SystemViewRemoteFileAdapter.java:2679)
+	at org.eclipse.rse.internal.files.ui.view.SystemViewRemoteFileAdapter.doDrop(SystemViewRemoteFileAdapter.java:2651)
+	at org.eclipse.rse.internal.ui.view.SystemDNDTransferRunnable.transferNonRSEResources(SystemDNDTransferRunnable.java:542)
+	at org.eclipse.rse.internal.ui.view.SystemDNDTransferRunnable.runInWorkspace(SystemDNDTransferRunnable.java:746)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:38)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.rse.ui 4 0 2016-02-22 07:53:51.485
+!MESSAGE Unable to set last modified
+!STACK 0
+org.eclipse.rse.services.clientserver.messages.SystemUnsupportedOperationException: Operation not supported: 'setLastModified'
+	at org.eclipse.rse.internal.services.files.ftp.FTPService.setLastModified(FTPService.java:1657)
+	at org.eclipse.rse.subsystems.files.core.servicesubsystem.FileServiceSubSystem.setLastModified(FileServiceSubSystem.java:1074)
+	at org.eclipse.rse.files.ui.resources.UniversalFileTransferUtility.uploadResourceFromWorkspace(UniversalFileTransferUtility.java:2033)
+	at org.eclipse.rse.internal.files.ui.view.SystemViewRemoteFileAdapter.doDrop(SystemViewRemoteFileAdapter.java:2679)
+	at org.eclipse.rse.internal.files.ui.view.SystemViewRemoteFileAdapter.doDrop(SystemViewRemoteFileAdapter.java:2651)
+	at org.eclipse.rse.internal.ui.view.SystemDNDTransferRunnable.transferNonRSEResources(SystemDNDTransferRunnable.java:542)
+	at org.eclipse.rse.internal.ui.view.SystemDNDTransferRunnable.runInWorkspace(SystemDNDTransferRunnable.java:746)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:38)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.rse.ui 4 0 2016-02-22 07:53:53.748
+!MESSAGE Unable to set last modified
+!STACK 0
+org.eclipse.rse.services.clientserver.messages.SystemUnsupportedOperationException: Operation not supported: 'setLastModified'
+	at org.eclipse.rse.internal.services.files.ftp.FTPService.setLastModified(FTPService.java:1657)
+	at org.eclipse.rse.subsystems.files.core.servicesubsystem.FileServiceSubSystem.setLastModified(FileServiceSubSystem.java:1074)
+	at org.eclipse.rse.files.ui.resources.UniversalFileTransferUtility.uploadResourceFromWorkspace(UniversalFileTransferUtility.java:2033)
+	at org.eclipse.rse.internal.files.ui.view.SystemViewRemoteFileAdapter.doDrop(SystemViewRemoteFileAdapter.java:2679)
+	at org.eclipse.rse.internal.files.ui.view.SystemViewRemoteFileAdapter.doDrop(SystemViewRemoteFileAdapter.java:2651)
+	at org.eclipse.rse.internal.ui.view.SystemDNDTransferRunnable.transferNonRSEResources(SystemDNDTransferRunnable.java:542)
+	at org.eclipse.rse.internal.ui.view.SystemDNDTransferRunnable.runInWorkspace(SystemDNDTransferRunnable.java:746)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:38)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.rse.ui 4 0 2016-02-22 07:53:55.424
+!MESSAGE Unable to set last modified
+!STACK 0
+org.eclipse.rse.services.clientserver.messages.SystemUnsupportedOperationException: Operation not supported: 'setLastModified'
+	at org.eclipse.rse.internal.services.files.ftp.FTPService.setLastModified(FTPService.java:1657)
+	at org.eclipse.rse.subsystems.files.core.servicesubsystem.FileServiceSubSystem.setLastModified(FileServiceSubSystem.java:1074)
+	at org.eclipse.rse.files.ui.resources.UniversalFileTransferUtility.uploadResourceFromWorkspace(UniversalFileTransferUtility.java:2033)
+	at org.eclipse.rse.internal.files.ui.view.SystemViewRemoteFileAdapter.doDrop(SystemViewRemoteFileAdapter.java:2679)
+	at org.eclipse.rse.internal.files.ui.view.SystemViewRemoteFileAdapter.doDrop(SystemViewRemoteFileAdapter.java:2651)
+	at org.eclipse.rse.internal.ui.view.SystemDNDTransferRunnable.transferNonRSEResources(SystemDNDTransferRunnable.java:542)
+	at org.eclipse.rse.internal.ui.view.SystemDNDTransferRunnable.runInWorkspace(SystemDNDTransferRunnable.java:746)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:38)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.rse.ui 4 0 2016-02-22 07:53:58.984
+!MESSAGE Unable to set last modified
+!STACK 0
+org.eclipse.rse.services.clientserver.messages.SystemUnsupportedOperationException: Operation not supported: 'setLastModified'
+	at org.eclipse.rse.internal.services.files.ftp.FTPService.setLastModified(FTPService.java:1657)
+	at org.eclipse.rse.subsystems.files.core.servicesubsystem.FileServiceSubSystem.setLastModified(FileServiceSubSystem.java:1074)
+	at org.eclipse.rse.files.ui.resources.UniversalFileTransferUtility.uploadResourceFromWorkspace(UniversalFileTransferUtility.java:2033)
+	at org.eclipse.rse.internal.files.ui.view.SystemViewRemoteFileAdapter.doDrop(SystemViewRemoteFileAdapter.java:2679)
+	at org.eclipse.rse.internal.files.ui.view.SystemViewRemoteFileAdapter.doDrop(SystemViewRemoteFileAdapter.java:2651)
+	at org.eclipse.rse.internal.ui.view.SystemDNDTransferRunnable.transferNonRSEResources(SystemDNDTransferRunnable.java:542)
+	at org.eclipse.rse.internal.ui.view.SystemDNDTransferRunnable.runInWorkspace(SystemDNDTransferRunnable.java:746)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:38)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.rse.ui 4 0 2016-02-22 07:54:00.815
+!MESSAGE Unable to set last modified
+!STACK 0
+org.eclipse.rse.services.clientserver.messages.SystemUnsupportedOperationException: Operation not supported: 'setLastModified'
+	at org.eclipse.rse.internal.services.files.ftp.FTPService.setLastModified(FTPService.java:1657)
+	at org.eclipse.rse.subsystems.files.core.servicesubsystem.FileServiceSubSystem.setLastModified(FileServiceSubSystem.java:1074)
+	at org.eclipse.rse.files.ui.resources.UniversalFileTransferUtility.uploadResourceFromWorkspace(UniversalFileTransferUtility.java:2033)
+	at org.eclipse.rse.internal.files.ui.view.SystemViewRemoteFileAdapter.doDrop(SystemViewRemoteFileAdapter.java:2679)
+	at org.eclipse.rse.internal.files.ui.view.SystemViewRemoteFileAdapter.doDrop(SystemViewRemoteFileAdapter.java:2651)
+	at org.eclipse.rse.internal.ui.view.SystemDNDTransferRunnable.transferNonRSEResources(SystemDNDTransferRunnable.java:542)
+	at org.eclipse.rse.internal.ui.view.SystemDNDTransferRunnable.runInWorkspace(SystemDNDTransferRunnable.java:746)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:38)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.rse.ui 4 0 2016-02-22 07:54:02.366
+!MESSAGE Unable to set last modified
+!STACK 0
+org.eclipse.rse.services.clientserver.messages.SystemUnsupportedOperationException: Operation not supported: 'setLastModified'
+	at org.eclipse.rse.internal.services.files.ftp.FTPService.setLastModified(FTPService.java:1657)
+	at org.eclipse.rse.subsystems.files.core.servicesubsystem.FileServiceSubSystem.setLastModified(FileServiceSubSystem.java:1074)
+	at org.eclipse.rse.files.ui.resources.UniversalFileTransferUtility.uploadResourceFromWorkspace(UniversalFileTransferUtility.java:2033)
+	at org.eclipse.rse.internal.files.ui.view.SystemViewRemoteFileAdapter.doDrop(SystemViewRemoteFileAdapter.java:2679)
+	at org.eclipse.rse.internal.files.ui.view.SystemViewRemoteFileAdapter.doDrop(SystemViewRemoteFileAdapter.java:2651)
+	at org.eclipse.rse.internal.ui.view.SystemDNDTransferRunnable.transferNonRSEResources(SystemDNDTransferRunnable.java:542)
+	at org.eclipse.rse.internal.ui.view.SystemDNDTransferRunnable.runInWorkspace(SystemDNDTransferRunnable.java:746)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:38)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.rse.ui 4 0 2016-02-22 07:54:04.695
+!MESSAGE Unable to set last modified
+!STACK 0
+org.eclipse.rse.services.clientserver.messages.SystemUnsupportedOperationException: Operation not supported: 'setLastModified'
+	at org.eclipse.rse.internal.services.files.ftp.FTPService.setLastModified(FTPService.java:1657)
+	at org.eclipse.rse.subsystems.files.core.servicesubsystem.FileServiceSubSystem.setLastModified(FileServiceSubSystem.java:1074)
+	at org.eclipse.rse.files.ui.resources.UniversalFileTransferUtility.uploadResourceFromWorkspace(UniversalFileTransferUtility.java:2033)
+	at org.eclipse.rse.internal.files.ui.view.SystemViewRemoteFileAdapter.doDrop(SystemViewRemoteFileAdapter.java:2679)
+	at org.eclipse.rse.internal.files.ui.view.SystemViewRemoteFileAdapter.doDrop(SystemViewRemoteFileAdapter.java:2651)
+	at org.eclipse.rse.internal.ui.view.SystemDNDTransferRunnable.transferNonRSEResources(SystemDNDTransferRunnable.java:542)
+	at org.eclipse.rse.internal.ui.view.SystemDNDTransferRunnable.runInWorkspace(SystemDNDTransferRunnable.java:746)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:38)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.rse.ui 4 0 2016-02-22 07:54:06.805
+!MESSAGE Unable to set last modified
+!STACK 0
+org.eclipse.rse.services.clientserver.messages.SystemUnsupportedOperationException: Operation not supported: 'setLastModified'
+	at org.eclipse.rse.internal.services.files.ftp.FTPService.setLastModified(FTPService.java:1657)
+	at org.eclipse.rse.subsystems.files.core.servicesubsystem.FileServiceSubSystem.setLastModified(FileServiceSubSystem.java:1074)
+	at org.eclipse.rse.files.ui.resources.UniversalFileTransferUtility.uploadResourceFromWorkspace(UniversalFileTransferUtility.java:2033)
+	at org.eclipse.rse.internal.files.ui.view.SystemViewRemoteFileAdapter.doDrop(SystemViewRemoteFileAdapter.java:2679)
+	at org.eclipse.rse.internal.files.ui.view.SystemViewRemoteFileAdapter.doDrop(SystemViewRemoteFileAdapter.java:2651)
+	at org.eclipse.rse.internal.ui.view.SystemDNDTransferRunnable.transferNonRSEResources(SystemDNDTransferRunnable.java:542)
+	at org.eclipse.rse.internal.ui.view.SystemDNDTransferRunnable.runInWorkspace(SystemDNDTransferRunnable.java:746)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:38)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.rse.ui 4 0 2016-02-22 07:54:08.520
+!MESSAGE Unable to set last modified
+!STACK 0
+org.eclipse.rse.services.clientserver.messages.SystemUnsupportedOperationException: Operation not supported: 'setLastModified'
+	at org.eclipse.rse.internal.services.files.ftp.FTPService.setLastModified(FTPService.java:1657)
+	at org.eclipse.rse.subsystems.files.core.servicesubsystem.FileServiceSubSystem.setLastModified(FileServiceSubSystem.java:1074)
+	at org.eclipse.rse.files.ui.resources.UniversalFileTransferUtility.uploadResourceFromWorkspace(UniversalFileTransferUtility.java:2033)
+	at org.eclipse.rse.internal.files.ui.view.SystemViewRemoteFileAdapter.doDrop(SystemViewRemoteFileAdapter.java:2679)
+	at org.eclipse.rse.internal.files.ui.view.SystemViewRemoteFileAdapter.doDrop(SystemViewRemoteFileAdapter.java:2651)
+	at org.eclipse.rse.internal.ui.view.SystemDNDTransferRunnable.transferNonRSEResources(SystemDNDTransferRunnable.java:542)
+	at org.eclipse.rse.internal.ui.view.SystemDNDTransferRunnable.runInWorkspace(SystemDNDTransferRunnable.java:746)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:38)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.rse.ui 4 0 2016-02-22 07:54:11.465
+!MESSAGE Unable to set last modified
+!STACK 0
+org.eclipse.rse.services.clientserver.messages.SystemUnsupportedOperationException: Operation not supported: 'setLastModified'
+	at org.eclipse.rse.internal.services.files.ftp.FTPService.setLastModified(FTPService.java:1657)
+	at org.eclipse.rse.subsystems.files.core.servicesubsystem.FileServiceSubSystem.setLastModified(FileServiceSubSystem.java:1074)
+	at org.eclipse.rse.files.ui.resources.UniversalFileTransferUtility.uploadResourceFromWorkspace(UniversalFileTransferUtility.java:2033)
+	at org.eclipse.rse.internal.files.ui.view.SystemViewRemoteFileAdapter.doDrop(SystemViewRemoteFileAdapter.java:2679)
+	at org.eclipse.rse.internal.files.ui.view.SystemViewRemoteFileAdapter.doDrop(SystemViewRemoteFileAdapter.java:2651)
+	at org.eclipse.rse.internal.ui.view.SystemDNDTransferRunnable.transferNonRSEResources(SystemDNDTransferRunnable.java:542)
+	at org.eclipse.rse.internal.ui.view.SystemDNDTransferRunnable.runInWorkspace(SystemDNDTransferRunnable.java:746)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:38)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
