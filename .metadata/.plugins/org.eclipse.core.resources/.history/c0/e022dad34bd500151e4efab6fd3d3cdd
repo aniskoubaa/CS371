@@ -1,0 +1,47 @@
+@CHARSET "UTF-8";
+
+.menu_nav {
+	font-weight: normal;
+	font-family: Arial;
+	border: 2px solid back;
+	text-align: center;
+	width: 10em;
+	background-color: black;
+	color: white;
+	text-transform: uppercase;
+	font-size: 1.2em;
+	float:left;
+	padding-left:.2em;
+	padding-right:.2em;
+	padding-bottom:.8em;
+	padding-top:.8em;
+}
+
+.menu_nav_ul {
+	display: none;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	width: 10em;
+	
+}
+
+nav:hover ul {
+	display: block;
+}
+
+nav ul li {
+	border-top: 2px solid royalblue;
+	background-color: white;
+	width: 10em;
+	color: black;
+}
+
+nav ul li:hover {
+	background-color: powderblue;
+	text-decoration: none;
+}
+
+nav a {
+	text-decoration: none;
+}
