@@ -13,7 +13,7 @@
 <!-- Embedded CSS3 Styles -->
 <style type="text/css">
 
-	h2 {transform: skew(20deg, 20deg); }
+	h2 {transform: skew(20deg); }
 
 	nav {font-weight:bold;
 		font-family:Arial;
