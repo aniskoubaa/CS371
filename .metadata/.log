@@ -2426,3 +2426,15 @@ java.io.IOException: Unable to resolve plug-in "platform:/plugin/com.aptana.edit
 
 !ENTRY org.eclipse.ui 4 4 2016-02-22 07:34:47.434
 !MESSAGE Unable to find Action Set: com.aptana.ruby.debug.ui.RubyDebugActionSet
+
+!ENTRY org.eclipse.egit.core 4 0 2016-02-22 07:43:44.168
+!MESSAGE An exception occurred during push on URI https://github.com/aniskoubaa/CS371.git: Nothing to push.
+!STACK 0
+org.eclipse.jgit.errors.TransportException: Nothing to push.
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1197)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:197)
+	at org.eclipse.egit.ui.internal.push.PushWizard$PushJob.run(PushWizard.java:297)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.egit.ui 4 0 2016-02-22 07:43:44.170
+!MESSAGE Can't connect to any repository: https://github.com/aniskoubaa/CS371.git (Nothing to push.)
